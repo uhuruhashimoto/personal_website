@@ -1,11 +1,25 @@
 .website__bio {
-    display: flex;
+    width: 1440px;
+    height: 932px;
+    top: -39px;
+    background-image: url("/src/assets/lake.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    width: 1280px;
-    height: 832px;
-
 }
 
 .website__bio-name {
-    display: flex;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 9%;
+    left: 20%;
+    transform: translate(-50%, -9%);
 }
