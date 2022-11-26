@@ -1,0 +1,9 @@
+.website__biotext {
+    display: flex;
+    background-image: '../assets/lake.png';
+}
+
+.website__biotext {
+    display: flex;
+    align-items: center;
+}

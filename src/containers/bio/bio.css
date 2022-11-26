@@ -1,0 +1,11 @@
+.website__bio {
+    display: flex;
+    position: relative;
+    width: 1280px;
+    height: 832px;
+
+}
+
+.website__bio-name {
+    display: flex;
+}
