@@ -5,7 +5,9 @@ import { Achievements, Experience, Projects, Thanks } from "./containers";
 
 const App = () => {
     return (
-        <div className="App">            <Achievements/>
+        <div className="App">
+            <Infobar/>            
+            <Achievements/>
             <Experience/>
             <Projects/>
             <Thanks/>

@@ -1,0 +1,17 @@
+.website__infobar {
+    display: flex;
+    align-items: left;
+    position: absolute;
+    resize: horizontal;
+    width: 184px;
+    height: 128px;
+    left: 1042px;
+    top: 82px;
+}
+
+.website__infobar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
