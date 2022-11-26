@@ -1,11 +1,11 @@
 .website__infobar {
     display: flex;
     align-items: left;
-    position: absolute;
+    position: relative;
     resize: horizontal;
-    width: 184px;
+    width: 284px;
     height: 128px;
-    left: 1042px;
+    left: 1072px;
     top: 82px;
 }
 
@@ -14,6 +14,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: left;
+    padding: 0px;
+    gap: 10px;
 }
 
 .website__infobar-links_container {
@@ -21,7 +23,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 55px;
 
     color: #100606;
 }

@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital');
+/*
+* Font used: Inter (Google Font)
+* Font weights: 
+*   headers: 100
+*   body text: 400
+* Font styles: italics, bold
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400');
 
 :root {
     --font-family: 'Inter';
