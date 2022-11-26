@@ -1,13 +1,17 @@
-import React from 'react'
+import React from 'react';
+import './biotext.css';
 
 const BioText = () => {
   return (
-    <div className='website__biotext-bio'>
-        Bio
-            <div className='website__biotext-description'>
-                <p>
-                    A passionate Dartmouth College student double majoring in computer science and engineering, specializing in backend development and power electronics. 
-                </p>
+    <div className='website__biotext'>
+        <link rel="stylesheet" href="css/animate.css"></link>
+        <div className='website__biotext-bio'>
+            Bio
+        </div>
+        <div className='website__biotext-description'>
+            <p>
+                A passionate Dartmouth College student double majoring in computer science and engineering, specializing in backend development and power electronics. 
+            </p>
         </div>
     </div>
   )

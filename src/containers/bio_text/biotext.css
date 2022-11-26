@@ -1,9 +1,40 @@
 .website__biotext {
+    width: 1440px;
+    height: 880px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     display: flex;
-    background-image: '../assets/lake.png';
+    animation: fadeInUp;
 }
 
-.website__biotext {
-    display: flex;
-    align-items: center;
+.website__biotext-bio {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.website__biotext-description {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 77px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

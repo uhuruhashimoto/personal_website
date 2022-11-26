@@ -6,9 +6,9 @@ const Infobar = () => {
     <div className="website__infobar">
         <div className="website__infobar-links">
             <div className="website__infobar-links_container">
-            <p><a hfref="#home">Download Resume</a></p>
-            <p><a hfref="https://github.com/uhuruhashimoto">GitHub</a></p>
-            <p><a hfref="#home">Contact Me</a></p>
+            <p><a href="/src/assets/Hashimoto_Resume.pdf" download="Hashimoto_Resume.pdf">Download Resume</a></p>
+            <p><a href="https://github.com/uhuruhashimoto">GitHub</a></p>
+            <p><a href="mailto:uhuru.g.hashimoto.23@dartmouth.edu">Contact Me</a></p>
             </div>
         </div>
     </div>
