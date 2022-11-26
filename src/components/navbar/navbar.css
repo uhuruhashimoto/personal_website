@@ -1,0 +1,27 @@
+.website__navbar {
+    display: flex;
+    align-items: left;
+    position: relative;
+    resize: horizontal;
+    width: 184px;
+    height: 128px;
+    left: 1042px;
+    top: 200px;
+}
+
+.website__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.website__navbar-links_container {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #100606;
+}
