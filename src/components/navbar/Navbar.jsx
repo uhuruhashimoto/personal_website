@@ -6,10 +6,10 @@ const Navbar = () => {
     <div className="website__navbar">
     <div className="website__navbar-links">
         <div className="website__navbar-links_container">
-        <p><a hfref="">Home</a></p>
-        <p><a hfref="">Projects</a></p>
-        <p><a hfref="">Experience</a></p>
-        <p><a hfref="">Achievements</a></p>
+        <p><a href="#bio">Home</a></p>
+        <p><a href="#projects">Projects</a></p>
+        <p><a href="#experiences">Experience</a></p>
+        <p><a href="#achievements">Achievements</a></p>
         </div>
     </div>
 </div>
