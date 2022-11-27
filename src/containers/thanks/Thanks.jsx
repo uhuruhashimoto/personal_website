@@ -8,8 +8,12 @@ const Thanks = () => {
     <div className='website__thanks-name'>
       Thanks for Reading!
     </div>
-    <Infobar/>
-    <Navbar/>
+    <h1 className='website__thanks-infobar'>
+      <Infobar/>
+    </h1>
+    <h2 className='website__thanks-navbar'>
+      <Navbar/>
+    </h2>
   </div>
   )
 }

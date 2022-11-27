@@ -8,8 +8,12 @@ const Projects = () => {
     <div className='website__projects-name'>
         Projects
     </div>
-    <Infobar/>
-    <Navbar/>
+    <h1 className='website__projects-infobar'>
+        <Infobar/>
+      </h1>
+      <h2 className='website__projects-navbar'>
+        <Navbar/>
+      </h2>
 </div>
   )
 }

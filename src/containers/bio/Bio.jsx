@@ -8,8 +8,12 @@ const Bio = () => {
       <div className='website__bio-name'>
         Uhuru Hashimoto
       </div>
-      <Infobar className='website__bio-infobar'/>
-      <Navbar className='website__bio-navbar'/>
+      <h1 className='website__bio-infobar'>
+        <Infobar/>
+      </h1>
+      <h2 className='website__bio-navbar'>
+        <Navbar/>
+      </h2>
     </div>
   )
 }

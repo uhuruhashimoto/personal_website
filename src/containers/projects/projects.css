@@ -23,15 +23,18 @@
     line-height: 77px;
 
     color: #1b1818;
-    /* font-family: 'Inter';
-    font-style: italic;
-    font-weight: 100;
-    font-size: 64px;
-    line-height: 77px;
-    color: #100606;
-    text-align: center;
+    /* 
     position: relative;
     top: 3%;
     left: 20%;
-    transform: translate(-50%, -9%); */
+    transform: translate(-50%, -9%); 
+    */
+}
+
+.website__projects-infobar {
+    color: #100606;
+}
+
+.website__projects-navbar{
+    color: #100606;
 }

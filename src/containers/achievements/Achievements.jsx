@@ -8,8 +8,12 @@ const Achievements = () => {
     <div className='website__achievements-name'>
       Achievements
     </div>
-    <Infobar/>
-    <Navbar/>
+    <h1 className='website__achievements-infobar'>
+      <Infobar/>
+    </h1>
+    <h2 className='website__achievements-navbar'>
+      <Navbar/>
+    </h2>
   </div>
   )
 }
