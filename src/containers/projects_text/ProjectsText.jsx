@@ -6,7 +6,7 @@ const ProjectsText = () => {
     <div className='website__projectstext'>
     <link rel="stylesheet" href="css/animate.css"></link>
     <div className='website__projectstext-description'>
-        <p1>
+        <p1 className="website__projectstext-description__title1">
             Software Development<br></br>
         </p1>
         <p2>
@@ -30,7 +30,7 @@ const ProjectsText = () => {
         <p8>
             Operating Systems: wrote 'Yalnix' monolithic, preemptive, ring-0-only kernel with double address space to run on Ubuntu (with configured signal handlers). Fall 2022<br></br>
         </p8>
-        <p9>
+        <p9 className="website__projectstext-description__title2">
             Embedded Systems Development<br></br>
         </p9>
         <p10>
@@ -42,7 +42,7 @@ const ProjectsText = () => {
         <p12>
             Arduino bare-metal code projects (pwm driver, register signal handlers, network FSM). 2022 Winter Spring<br></br> 
         </p12>
-        <p13>
+        <p13 className="website__projectstext-description__title3">
             Power Electronics<br></br>
         </p13>
         <p14>
