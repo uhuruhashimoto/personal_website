@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './projects.css';
+import { Infobar, Navbar } from '../../components';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='website__projects'>
+    <div className='website__projects-name'>
+        Projects
+    </div>
+    <Infobar/>
+    <Navbar/>
+</div>
   )
 }
 

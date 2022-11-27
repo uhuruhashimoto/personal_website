@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import './experience.css';
+import { Infobar, Navbar } from '../../components';
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <div className='website__experience'>
+    <div className='website__experience-name'>
+      Experience
+    </div>
+    <Infobar/>
+    <Navbar/>
+  </div>
   )
 }
 

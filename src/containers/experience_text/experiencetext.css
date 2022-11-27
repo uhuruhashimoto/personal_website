@@ -1,0 +1,25 @@
+.website__experiencetext {
+    width: 1440px;
+    height: 880px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+}
+
+
+.website__experiencetext-description {
+    width: 1440px;
+    height: 1000px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

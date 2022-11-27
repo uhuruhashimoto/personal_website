@@ -9,6 +9,9 @@ const App = () => {
             <Bio/>
             <BioText/>
             <Projects/>
+            <ProjectsText/>
+            <Experience/>
+            <ExperienceText/>
         </div>
     )
 }
