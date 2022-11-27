@@ -2,6 +2,7 @@
     width: 1440px;
     height: 880px;
     background-image: url("/src/assets/flatirons.png");
+    background-attachment: fixed;
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
