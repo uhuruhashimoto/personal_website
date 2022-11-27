@@ -10,7 +10,7 @@ const BioText = () => {
         </div>
         <div className='website__biotext-description'>
             <p>
-                A passionate Dartmouth College student double majoring in computer science and engineering, specializing in backend development and power electronics. 
+                An inquisitive Dartmouth College student double majoring in computer science and engineering, specializing in backend development and power electronics. 
             </p>
         </div>
     </div>
