@@ -19,7 +19,7 @@ const ExperienceText = () => {
                     Ascend Analytics. Backend Python Development. Contributed to codebase strategy organization and optimized bidding schedule using throughput proxies to meet hardware operating specifications. 
                 </p4>
                 <p5>
-                    Languages: C, C#, Python, Java, Rust, JavaScript, TypeScript, C++, Assembly
+                    Languages: C, C#, C++, Python, Java, Rust, JavaScript, TypeScript, CSS, Assembly
                 </p5>
                 <p6>
                     Embedded Systems: C code, Arduino, VHDL. 
