@@ -7,19 +7,19 @@ const AchievementsText = () => {
       <link rel="stylesheet" href="css/animate.css"></link>
         <div className='website__achievementstext-description'>
           <p1>
-            Ellensburg High School 5k Record Holder
+            2017 - Ellensburg High School 5k Record Holder<br></br><br></br>
           </p1>
           <p2>
-            Dartmouth DI XC and Track and Field Athlete
+            2020 - Rainer summits via Tahoma and Emmons Glaciers<br></br><br></br>
           </p2>
           <p3>
-            extensive alpine experience; submitted Rainier twice via Tahoma Glacier and Emmons Glacier summer of 2020
+            2021 - Dartmouth DI XC and Track and Field Athlete<br></br><br></br>
           </p3>
           <p4>
-            Dartmouth Mountaineering Club leader 
+            2021 - Wilderness First Aid certified<br></br><br></br>
           </p4>
           <p5>
-            Wilderness First Aid certified
+            2022 - Dartmouth Mountaineering Club leader<br></br>
           </p5>
         </div>
   </div>

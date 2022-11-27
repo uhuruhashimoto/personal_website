@@ -17,9 +17,14 @@
     font-size: 30px;
     line-height: 40px;
     color: #100606;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     position: relative;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.website__experiencetext-description_title {
+    font-weight: bold;
 }
