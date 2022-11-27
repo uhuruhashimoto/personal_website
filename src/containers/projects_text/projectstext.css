@@ -13,13 +13,17 @@
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 30px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 40px;
     color: #100606;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     position: relative;
-    top: 80%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+p1, p9, p13 {
+    font-weight: bold;
 }
