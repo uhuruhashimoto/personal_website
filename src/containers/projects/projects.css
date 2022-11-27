@@ -1,6 +1,6 @@
 .website__projects {
     width: 1440px;
-    height: 880px;
+    height: 920px;
     background-image: url("/src/assets/duck_road.png");
     background-color: #cccccc;
     background-position: center;
@@ -10,7 +10,20 @@
 }
 
 .website__projects-name {
+    position: absolute;
+    width: 809px;
+    height: 190px;
+    left: 38px;
+    top: 45px;
+
     font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #100606;
+    /* font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
     font-size: 64px;
@@ -20,5 +33,5 @@
     position: relative;
     top: 3%;
     left: 20%;
-    transform: translate(-50%, -9%);
+    transform: translate(-50%, -9%); */
 }

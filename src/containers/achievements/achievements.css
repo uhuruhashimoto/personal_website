@@ -10,15 +10,17 @@
 }
 
 .website__achievements-name {
+    position: absolute;
+    width: 809px;
+    height: 190px;
+    left: 13px;
+    top: 25px;
+
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
     font-size: 64px;
     line-height: 77px;
-    color: #100606;
-    text-align: center;
-    position: relative;
-    top: 3%;
-    left: 20%;
-    transform: translate(-50%, -9%);
+
+    color: #FFFFFF;
 }
