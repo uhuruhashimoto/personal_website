@@ -7,11 +7,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
 }
 
 .website__thanks-name {
-    position: absolute;
+    position: relative;
     width: 657px;
     height: 94px;
     left: 423px;
