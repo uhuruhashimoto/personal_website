@@ -1,0 +1,24 @@
+.website__achievements {
+    width: 1440px;
+    height: 880px;
+    background-image: url("/src/assets/quickdraw.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.website__achievements-name {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 3%;
+    left: 20%;
+    transform: translate(-50%, -9%);
+}

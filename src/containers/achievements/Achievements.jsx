@@ -1,9 +1,16 @@
 import React from 'react';
-import './achievements.css'
+import './achievements.css';
+import { Infobar, Navbar } from '../../components';
 
 const Achievements = () => {
   return (
-    <div>Achievements</div>
+    <div className='website__achievements'>
+    <div className='website__achievements-name'>
+      Achievements
+    </div>
+    <Infobar/>
+    <Navbar/>
+  </div>
   )
 }
 
