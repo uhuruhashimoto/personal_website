@@ -2,11 +2,11 @@
     display: flex;
     align-items: left;
     position: relative;
-    resize: horizontal;
     width: 284px;
     height: 128px;
     left: 1072px;
     top: 82px;
+    resize: both;
 }
 
 .website__infobar-links {
