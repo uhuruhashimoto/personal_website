@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Infobar } from './components';
 import { Bio, BioText, Achievements, AchievementsText, Experience, ExperienceText, Projects, ProjectsText, Thanks } from "./containers";
 
 const App = () => {
@@ -8,13 +7,13 @@ const App = () => {
         <div className="App">
             <Bio/>
             <BioText/>
-            {/* <Projects/>
+            <Projects/>
             <ProjectsText/>
             <Experience/>
             <ExperienceText/>
             <Achievements/>
             <AchievementsText/>
-            <Thanks/> */}
+            <Thanks/>
         </div>
     )
 }
