@@ -4,7 +4,6 @@ import './biotext.css';
 const BioText = () => {
   return (
     <div className='website__biotext'>
-        <link rel="stylesheet" href="css/animate.css"></link>
           <div className='website__biotext-bio'>
               Bio
           </div>
