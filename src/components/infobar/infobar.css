@@ -6,7 +6,10 @@
     height: 128px;
     left: 1072px;
     top: 82px;
-    resize: both;
+    /* top: 3%;
+    left: 80%;
+    transform: translate(-50%, -9%);
+    resize: both; */
 }
 
 .website__infobar-links {
