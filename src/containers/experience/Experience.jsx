@@ -8,8 +8,8 @@ const Experience = () => {
     <div className='website__experience-name'>
       Experience
     </div>
-    <Infobar/>
-    <Navbar/>
+    <Infobar className='website__experience-infobar'/>
+      <Navbar className='website__experience-navbar'/>
   </div>
   )
 }
