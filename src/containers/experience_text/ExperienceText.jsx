@@ -5,6 +5,9 @@ const ExperienceText = () => {
   return (
     <div className='website__experiencetext'>
         <link rel="stylesheet" href="css/animate.css"></link>
+        <div className='website__experiencetext-experience'>
+            Experience
+        </div>
             <div className='website__experiencetext-description'>
                 <p1 className='website__experiencetext-description_title'>
                     Professional Experience<br></br><br></br>

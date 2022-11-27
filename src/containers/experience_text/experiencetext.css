@@ -6,6 +6,20 @@
     position: relative;
 }
 
+.website__experiencetext-experience {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    color: #100606;
+    text-align: center;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .website__experiencetext-description {
     width: 1440px;

@@ -5,6 +5,9 @@ const AchievementsText = () => {
   return (
     <div className='website__achievementstext'>
       <link rel="stylesheet" href="css/animate.css"></link>
+      <div className='website__achievementstext-achievements'>
+            Achievements
+        </div>
         <div className='website__achievementstext-description'>
           <p1>
             2017 - Ellensburg High School 5k Record Holder<br></br><br></br>
