@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Achievements = () => {
   return (
-    <div className='website__achievements'>
+    <div className='website__achievements' id='achievements'>
     <div className='website__achievements-name'>
       Achievements
     </div>

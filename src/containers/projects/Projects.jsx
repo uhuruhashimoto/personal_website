@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Projects = () => {
   return (
-    <div className='website__projects'>
+    <div className='website__projects' id='projects'>
     <div className='website__projects-name'>
         Projects
     </div>

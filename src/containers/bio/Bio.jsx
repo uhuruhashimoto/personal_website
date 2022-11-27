@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Bio = () => {
   return (
-    <div className='website__bio'>
+    <div className='website__bio' id='bio'>
       <div className='website__bio-name'>
         Uhuru Hashimoto
       </div>
