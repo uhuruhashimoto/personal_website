@@ -1,6 +1,4 @@
 .website__bio {
-    width: 1440px;
-    height: 880px;
     background-image: url("/src/assets/lake.png");
     background-attachment: fixed;
     background-color: #cccccc;
@@ -8,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 1440px;
+    height: 880px;
     /* display: flex; */
 }
 
