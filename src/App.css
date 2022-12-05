@@ -20,10 +20,10 @@ body {
 /*
 * Set up resizing and mobile behavior - see https://stackoverflow.com/questions/4935114/align-div-left-with-minimum-margin-that-floats-offscreen-on-resize 
 */
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
     *{
         margin-left: 0; 
         float: left; 
         width: 100%;
     }
-} 
+}  */

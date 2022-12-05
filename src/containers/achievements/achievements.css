@@ -1,8 +1,8 @@
 .website__achievements {
-    width: 1440px;
+    width: 100%;
     height: 880px;
     background-image: url("/src/assets/quickdraw.png");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;

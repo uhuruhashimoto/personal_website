@@ -1,5 +1,5 @@
 .website__thanks {
-    width: 1440px;
+    width: 100%;
     height: 880px;
     background-image: url("/src/assets/flatirons.png");
     background-attachment: fixed;
