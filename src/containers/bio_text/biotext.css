@@ -1,12 +1,11 @@
 .website__biotext {
-    width: 1440px;
+    width: 100%;
     height: 880px;
-    background-color: transparent;
+    background-color: #03080a;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    display: flex;
 }
 
 .website__biotext-bio {
@@ -15,12 +14,13 @@
     font-weight: 100;
     font-size: 64px;
     line-height: 77px;
-    color: #100606;
+    color: #ecf4f9;
     text-align: center;
     position: relative;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 10%;
+    width: 20%;
+    left: 40%;
+    top: 20%;
 }
 
 
@@ -31,10 +31,11 @@
     font-weight: 100;
     font-size: 40px;
     line-height: 77px;
-    color: #100606;
+    color: #ecf4f9;
     text-align: center;
     position: relative;
-    top: 80%;
-    left: 43%;
-    transform: translate(-50%, -50%);
+    height: 10%;
+    width: 50%;
+    left: 25%;
+    top: 30%;
 }

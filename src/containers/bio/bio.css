@@ -31,11 +31,3 @@
 .website__bio-navbar{
     color: #100606;
 }
-
-@media screen and (max-width: 1000px) {
-    *{
-        margin-left: 0; 
-        float: left; 
-        width: 700px;
-    }
-} 

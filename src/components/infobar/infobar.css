@@ -1,15 +1,10 @@
 .website__infobar {
-    display: flex;
     align-items: left;
     position: relative;
-    width: 284px;
-    height: 128px;
-    left: 1072px;
-    top: 82px;
-    /* top: 3%;
+    width: 30%;
+    height: 10%;
     left: 80%;
-    transform: translate(-50%, -9%);
-    resize: both; */
+    margin-top: 2%; 
 }
 
 .website__infobar-links {

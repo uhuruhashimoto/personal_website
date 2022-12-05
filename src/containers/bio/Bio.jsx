@@ -11,9 +11,9 @@ const Bio = () => {
       <h1 className='website__bio-infobar'>
         <Infobar/>
       </h1>
-      {/* <h2 className='website__bio-navbar'>
+      <h2 className='website__bio-navbar'>
         <Navbar/>
-      </h2> */}
+      </h2>
     </div>
   )
 }
