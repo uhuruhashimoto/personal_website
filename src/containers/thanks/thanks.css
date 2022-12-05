@@ -12,10 +12,10 @@
 
 .website__thanks-name {
     position: relative;
-    width: 657px;
-    height: 94px;
-    left: 423px;
-    top: 462px;
+    width: 45%;
+    height: 10%;
+    left: 30%;
+    top: 52%;
 
     font-family: 'Inter';
     font-style: italic;
@@ -23,7 +23,7 @@
     font-size: 64px;
     line-height: 77px;
 
-    color: #FFCDCD;
+    color: #ffcdcd;
 }
 
 .website__thanks-infobar{ 
