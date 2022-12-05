@@ -1,27 +1,27 @@
 .website__bio {
     background-image: url("/src/assets/lake.png");
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width: 1440px;
+    width: 100%; /* 1440px mac */
     height: 880px;
-}
+ }
 
 .website__bio-name {
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 64px; /* 64 px fixed */
+    line-height: 100%; /* 77 px fixed */
     color: #100606;
-    text-align: center;
+    text-align: left;
     position: relative;
     height: 10%;
-    width: 40%;
-    top: 2%;
+    width: 100%;
+    top: 0.5%; /* 2 if not fixed */
 }
 
 .website__bio-infobar {
@@ -31,3 +31,11 @@
 .website__bio-navbar{
     color: #100606;
 }
+
+@media screen and (max-width: 1000px) {
+    *{
+        margin-left: 0; 
+        float: left; 
+        width: 700px;
+    }
+} 

@@ -11,11 +11,15 @@ const Bio = () => {
       <h1 className='website__bio-infobar'>
         <Infobar/>
       </h1>
-      <h2 className='website__bio-navbar'>
+      {/* <h2 className='website__bio-navbar'>
         <Navbar/>
-      </h2>
+      </h2> */}
     </div>
   )
 }
+
+/*
+* Option: Add responsive background image without the cover/fixed clipping, as per https://stackoverflow.com/questions/21786272/css-background-size-cover-background-attachment-fixed-clipping-background-im 
+*/
 
 export default Bio

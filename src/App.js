@@ -7,13 +7,13 @@ const App = () => {
         <div className="App">
             <Bio/>
             <BioText/>
-            <Projects/>
+            {/* <Projects/>
             <ProjectsText/>
             <Experience/>
             <ExperienceText/>
             <Achievements/>
             <AchievementsText/>
-            <Thanks/>
+            <Thanks/> */}
         </div>
     )
 }
