@@ -1,6 +1,6 @@
 .website__projectstext {
     width: 100%; 
-    height: 880px;
+    height: 1700px;
     background-color: #030506;
     text-align: center;
     position: relative;
@@ -9,21 +9,27 @@
 
 .website__projectstext-description {
     width: 100%;
-    height: 1000px;
+    height: 100%;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 45px;
     color: #f8f8f8;
     text-align: left;
     padding-left: 20px;
     position: relative;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 2%;
+    left: 0%;
 }
 
 .website__projectstext-description__title1, .website__projectstext-description__title2, .website__projectstext-description__title3 {
+    /* font-weight: bold; */
+    font-size: 40px;
+    line-height: 90px;
+}
+
+h {
     font-weight: bold;
+    font-size: 25px;
 }
