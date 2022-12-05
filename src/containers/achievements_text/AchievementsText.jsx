@@ -4,13 +4,12 @@ import './achievementstext.css';
 const AchievementsText = () => {
   return (
     <div className='website__achievementstext'>
-      <link rel="stylesheet" href="css/animate.css"></link>
       <div className='website__achievementstext-achievements'>
             Achievements
         </div>
         <div className='website__achievementstext-description'>
           <p1>
-            2017 - Ellensburg High School 5k Record Holder<br></br><br></br>
+            2017 - Ellensburg High School 5000m, 3200m, 1600m Record Holder<br></br><br></br>
           </p1>
           <p2>
             2020 - Rainer summits via Tahoma and Emmons Glaciers<br></br><br></br>
