@@ -4,7 +4,6 @@ import './projectstext.css';
 const ProjectsText = () => {
   return (
     <div className='website__projectstext'>
-    <link rel="stylesheet" href="css/animate.css"></link>
     <div className='website__projectstext-description'>
         <p1 className="website__projectstext-description__title1">
             Software Development<br></br>
