@@ -33,3 +33,11 @@
 .website__projects-navbar{
     color: #100606;
 }
+
+.website__projects:hover {
+    color: black;
+}
+  
+.website__projects:hover:before {
+    display: block;
+}

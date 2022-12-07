@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Thanks = () => {
   return (
-    <div className='website__thanks'>
+    <div className='website__thanks' title="A great view of the Flatirons outside of Boulder this summer">
     <div className='website__thanks-name'>
       Thanks for Reading!
     </div>

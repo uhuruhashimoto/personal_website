@@ -33,3 +33,11 @@
 .website__achievements-navbar {
     color: #ffffff;
 }
+
+.website__achievements:hover {
+    color: black;
+}
+  
+.website__achievments:hover:before {
+    display: block;
+}

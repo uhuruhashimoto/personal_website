@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Experience = () => {
   return (
-    <div className='website__experience' id='experience'>
+    <div className='website__experience' id='experience' title="A breadboard heart rate monitor">
     <div className='website__experience-name'>
       Experience
     </div>

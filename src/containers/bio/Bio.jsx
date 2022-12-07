@@ -4,7 +4,7 @@ import { Infobar, Navbar } from '../../components';
 
 const Bio = () => {
   return (
-    <div className='website__bio' id='bio'>
+    <div className='website__bio' id='bio' title="Pea Soup Lake, in the Cascades, on a 2021 hike.">
       <div className='website__bio-name'>
         Uhuru Hashimoto
       </div>

@@ -31,3 +31,11 @@
 .website__bio-navbar{
     color: #100606;
 }
+
+.website__bio:hover {
+    color: black;
+}
+  
+.website__bio:hover:before {
+    display: block;
+}
