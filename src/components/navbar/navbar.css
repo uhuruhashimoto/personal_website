@@ -1,12 +1,11 @@
 .website__navbar {
-    display: flex;
     align-items: left;
     position: relative;
-    width: 30%;
+    width: 20%;
     height: 10%;
-    left: 80%;
-    margin-top: 2%;
-    top: 90%;
+    margin-top: 2%; 
+    clear: right;
+    float: right;
 }
 
 .website__navbar-links {
@@ -31,4 +30,11 @@
 */
 a {
     color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .website__navbar {
+        float: none;
+        padding: 10%;
+    }
 }

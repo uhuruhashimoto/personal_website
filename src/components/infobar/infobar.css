@@ -1,10 +1,10 @@
 .website__infobar {
     align-items: left;
     position: relative;
-    width: 30%;
+    width: 20%;
     height: 10%;
-    left: 80%;
     margin-top: 2%; 
+    float: right
 }
 
 .website__infobar-links {
@@ -29,4 +29,11 @@
 */
 a {
     color: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    .website__infobar {
+        float: none;
+        padding: 10%;
+    }
 }
