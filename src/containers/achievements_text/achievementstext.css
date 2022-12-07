@@ -39,3 +39,10 @@
     left: 15%; 
     margin-top: 2%;
 }
+
+
+@media screen and (max-width: 768px) {
+    .website__achievementstext-description {
+        font-size: 4vw;
+    }
+}

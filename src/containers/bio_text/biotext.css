@@ -29,7 +29,7 @@
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 3vw; /*40px;*/
     line-height: 77px;
     color: #ecf4f9;
     text-align: center;
@@ -38,4 +38,13 @@
     width: 50%;
     left: 25%;
     top: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .website__biotext-bio { 
+        height: 5%;
+    }
+    .website__biotext-description {
+        font-size: 4vw;
+    }
 }

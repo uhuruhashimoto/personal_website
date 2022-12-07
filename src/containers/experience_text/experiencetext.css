@@ -28,7 +28,6 @@
     font-style: italic;
     font-weight: 100;
     font-size: 30px;
-    font-size: 30px;
     line-height: 40px;
     color: #ffffff;
     text-align: left;
@@ -42,4 +41,15 @@
 
 .website__experiencetext-description_title {
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 940px) {
+    .website__experiencetext{
+        min-height: 1200px;
+    }
+    .website__experiencetext-description {
+        top: 55%;
+        font-size: 4vw;
+    }
 }
