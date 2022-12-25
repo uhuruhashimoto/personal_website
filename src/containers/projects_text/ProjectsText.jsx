@@ -9,7 +9,7 @@ const ProjectsText = () => {
             Software Development<br></br>
         </p1>
         <p2>
-            <h>Meshtastic</h><br></br>
+            <h href="#meshtastic">Meshtastic</h><br></br>
             Implemented dataflow and backend for mesh network for use in emergency response, including mesh network algorithm optimization and dataflow. TS, C++, Rust. Fall 2022; development ongoing<br></br>
         </p2>
         <p3>
