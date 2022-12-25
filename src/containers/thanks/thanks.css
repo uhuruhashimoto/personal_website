@@ -33,11 +33,3 @@
 .website__thanks-navbar {
     color: #967474;
 }
-
-.website__thanks:hover {
-    color: black;
-}
-  
-.website__thanks:hover:before {
-    display: block;
-}

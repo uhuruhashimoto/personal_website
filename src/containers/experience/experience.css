@@ -34,11 +34,3 @@
 .website__experience-navbar {
     color: #f3f0f0;
 }
-
-.website__experience:hover {
-    color: black;
-}
-  
-.website__experience:hover:before {
-    display: block;
-}
