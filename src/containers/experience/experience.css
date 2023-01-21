@@ -11,20 +11,19 @@
 }
 
 .website__experience-name {
-
-    position: relative;
-    width: 809px;
-    height: 190px;
-    left: 37px;
-    top: 48px;
-
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 64px;
-    line-height: 77px;
-
+    font-size: 64px; 
+    line-height: 100%; /* 77 px fixed */
     color: #100606;
+    text-align: left;
+    position: relative;
+
+    height: 10%;
+    width: 100%;
+    top: 5%; 
+    left: 3%;
 }
 
 .website__experience-infobar{ 
@@ -33,4 +32,15 @@
 
 .website__experience-navbar {
     color: #f3f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    .website__experience-name { 
+        font-size: 14vw;
+        padding: 1%;
+        top: 5%;
+        padding-bottom: 10%;
+        align-items: center;
+        text-align: center;
+    }
 }

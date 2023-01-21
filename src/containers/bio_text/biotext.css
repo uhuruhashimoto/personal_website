@@ -43,8 +43,10 @@
 @media screen and (max-width: 768px) {
     .website__biotext-bio { 
         height: 5%;
+        font-size: 10vw;
     }
     .website__biotext-description {
         font-size: 4vw;
+        padding: 0;
     }
 }

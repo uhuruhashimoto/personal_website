@@ -31,3 +31,14 @@
 .website__bio-navbar{
     color: #100606;
 }
+
+@media screen and (max-width: 768px) {
+    .website__bio-name { 
+        font-size: 14vw;
+        padding: 1%;
+        top: 2%;
+        padding-bottom: 40%;
+        align-items: center;
+        text-align: center;
+    }
+}

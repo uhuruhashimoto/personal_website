@@ -10,14 +10,16 @@
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 64px; 
+    line-height: 100%; /* 77 px fixed */
     color: #fff9f9;
     text-align: center;
     position: relative;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    height: 10%;
+    width: 100%;
+    top: 8%; 
+    left: 3%;
 }
 
 
@@ -40,8 +42,14 @@
     margin-top: 2%;
 }
 
-
 @media screen and (max-width: 768px) {
+    .website__achievementstext-achievements { 
+        font-size: 14vw;
+        padding: 1%;
+        top: 10%;
+        align-items: center;
+        text-align: center;
+    }
     .website__achievementstext-description {
         font-size: 4vw;
     }

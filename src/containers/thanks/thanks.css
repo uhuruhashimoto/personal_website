@@ -33,3 +33,17 @@
 .website__thanks-navbar {
     color: #967474;
 }
+
+@media screen and (max-width: 940px) {
+    .website__thanks-name {
+        font-size: 8vw;
+        padding: 1%;
+        top: 2%;
+        color: #1b1515;
+        padding-bottom: 10%;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        left: 4%;
+    }
+}

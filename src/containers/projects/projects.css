@@ -11,19 +11,19 @@
 }
 
 .website__projects-name {
-    position: relative;
-    width: 809px;
-    height: 190px;
-    left: 38px;
-    top: 45px;
-
     font-family: 'Inter';
     font-style: italic;
     font-weight: 100;
-    font-size: 64px;
-    line-height: 77px;
-
+    font-size: 64px; 
     color: #1b1818;
+    line-height: 100%; /* 77 px fixed */
+    text-align: left;
+    position: relative;
+
+    height: 10%;
+    width: 100%;
+    top: 5%; 
+    left: 3%;
 }
 
 .website__projects-infobar {
@@ -32,4 +32,15 @@
 
 .website__projects-navbar{
     color: #100606;
+}
+
+@media screen and (max-width: 768px) {
+    .website__projects-name { 
+        font-size: 14vw;
+        padding: 1%;
+        top: 5%;
+        padding-bottom: 10%;
+        align-items: center;
+        text-align: center;
+    }
 }
