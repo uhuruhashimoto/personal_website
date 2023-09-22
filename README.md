@@ -5,7 +5,7 @@ This website is made up of five sections - a Bio, Projects, Experience, and Achi
 
 *Note: all image credit is my own*
 ## Tools
-This app uses React. The bare framework was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and I added the components manually. I used Figma to prototype.
+This app uses React. The bare framework was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and I added the components manually. I used Figma to prototype. I loosely followed [this tutorial](https://www.youtube.com/watch?v=LMagNcngvcU) and deployed with [Hostinger](https://hpanel.hostinger.com/).
 
 ## Run Locally
 `npm start` will demo the app on localhost
